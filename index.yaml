@@ -3,6 +3,18 @@ entries:
   customers:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2026-01-08T10:26:07.508024052Z"
+    description: Paye Ton Kawa Customers Management API
+    digest: 661b9570098715bfcacf452d3fc8cb9a675fe335134558bb8ab20ad1e802a8df
+    name: customers
+    sources:
+    - https://github.com/PayeTonKawa-EPSI-2025/Customers-V2
+    type: application
+    urls:
+    - https://github.com/PayeTonKawa-EPSI-2025/helm-charts/releases/download/customers-0.1.1/customers-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2026-01-08T10:11:57.090076409Z"
     description: Paye Ton Kawa Customers Management API
     digest: 863f42d1f6718da890462d99d7bbe636e051abe76d77bd9aded784a479bce04b
@@ -13,4 +25,30 @@ entries:
     urls:
     - https://github.com/PayeTonKawa-EPSI-2025/helm-charts/releases/download/customers-0.1.0/customers-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-08T10:11:57.090081471Z"
+  orders:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-01-08T10:26:07.752862924Z"
+    description: Paye Ton Kawa Orders Management API
+    digest: cf61beb12f057a6b6acb06fe11075f983c3bc2df82295e061a77ab960bebef5c
+    name: orders
+    sources:
+    - https://github.com/PayeTonKawa-EPSI-2025/Orders-V2
+    type: application
+    urls:
+    - https://github.com/PayeTonKawa-EPSI-2025/helm-charts/releases/download/orders-0.1.0/orders-0.1.0.tgz
+    version: 0.1.0
+  products:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-01-08T10:26:08.000817539Z"
+    description: Paye Ton Kawa Products Management API
+    digest: 17e58cf67ab9887fb297ac0c07fe03bda3dc0b4e5460ee83081bae8bf9d9f02c
+    name: products
+    sources:
+    - https://github.com/PayeTonKawa-EPSI-2025/Products-V2
+    type: application
+    urls:
+    - https://github.com/PayeTonKawa-EPSI-2025/helm-charts/releases/download/products-0.1.0/products-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-01-08T10:26:08.000847338Z"

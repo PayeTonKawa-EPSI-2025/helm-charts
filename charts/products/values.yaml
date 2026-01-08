@@ -4,7 +4,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: ghcr.io/payetonkawa-epsi-2025/customers-v2/paye-ton-kawa--customers
+  repository: ghcr.io/payetonkawa-epsi-2025/products-v2/paye-ton-kawa--products
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
@@ -30,7 +30,7 @@ resources:
 
 # Database configuration
 database:
-  dsn: "postgres://postgresadmin:postgresadmin@database:5432/customers"
+  dsn: "postgres://postgresadmin:postgresadmin@database:5432/products"
 
 # RabbitMQ configuration
 rabbitmq:

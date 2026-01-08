@@ -1,0 +1,9 @@
+apiVersion: v2
+type: application
+
+name: customers
+description: Paye Ton Kawa Customers Management API
+version: 0.1.0
+appVersion: "0.1.0"
+sources:
+  - https://github.com/PayeTonKawa-EPSI-2025/Customers-V2

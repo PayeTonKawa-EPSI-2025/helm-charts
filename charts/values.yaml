@@ -1,0 +1,28 @@
+replicaCount: 1
+
+image:
+  repository: ghcr.io/payetonkawa-epsi-2025/customers-v2/paye-ton-kawa--customers
+  pullPolicy: IfNotPresent
+
+imagePullSecrets: []
+
+service:
+  type: ClusterIP
+  port: 80
+  containerPort: 8081
+
+resources:
+  requests:
+    memory: "128Mi"
+    cpu: "100m"
+  limits:
+    memory: "512Mi"
+    cpu: "500m"
+
+# Database configuration
+database:
+  dsn: "postgres://postgresadmin:postgresadmin@database:5432/customers"
+
+# RabbitMQ configuration
+rabbitmq:
+  dsn: "amqp://admin:rabbitmq@rabbitmq.default.svc.cluster.local:5672"
